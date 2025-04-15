@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    namespace "dev.joshhalvorson.calendar_date_range_picker"
+    compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 26
-        targetSdkVersion 33
+        minSdkVersion 21
+        targetSdkVersion 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
